@@ -39,5 +39,5 @@ Example Input/Output:
 Input: Hello! :&#41;
 Output: Hello! 🙂
 
-Input: Goodbye...:&#x207D;
+Input: Goodbye...:(;
 Output: Goodbye...🙁
