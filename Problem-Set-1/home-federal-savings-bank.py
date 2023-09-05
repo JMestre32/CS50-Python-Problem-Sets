@@ -17,3 +17,16 @@ def main():
 main()
 
 
+#This answer technically works, but doesn't account for if the greeting has hello in the string BUT starts with something else 
+#(ie. vbhsjfhbyvfsuhfvbshewhello) the example greeting would return 0. 
+
+# answer = input("Greeting: ")
+
+# new_answer = answer.lower().strip()
+
+# if 'hello' in new_answer:
+#     print("$0")
+# elif 'h' == new_answer[0]:
+#     print("$20")
+# else:
+#     print("$0")
