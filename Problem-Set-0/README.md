@@ -10,11 +10,11 @@ In a file called indoor.py, implement a program in Python that prompts the user 
 
 <strong><ins> Example Input/Output </ins></strong>
 
-Input: HELLO, WORLD <br>
-Output: hello, world
+``Input: HELLO, WORLD`` <br>
+``Output: hello, world``
 
-Input: THIS IS CS50
-Output: this is cs50
+``Input: THIS IS CS50`` <br>
+``Output: this is cs50``
 
 
 <h2> Playback.py </h2>
@@ -24,9 +24,8 @@ In a file called playback.py, implement a program in Python that prompts the use
 
 <strong><ins> Example Input/Output </ins></strong>
 
-Input: Hi, I am Berry <br>
-Output: Hi,...I...am...Berry
-
+``Input: Hi, I am Berry`` <br>
+``Output: Hi,...I...am...Berry``
 <h2> Making Faces </h2>
 Before there were emoji, there were emoticons, whereby text like :&#41; was a happy face and text like :( was a sad face. Nowadays, programs tend to convert emoticons to emoji automatically!
 
@@ -36,11 +35,12 @@ Then, in that same file, implement a function called main that prompts the user 
 
 <strong><ins> Example Input/Output </ins></strong>
 
-Input: Hello! :&#41; <br>
-Output: Hello! 🙂
 
-Input: Goodbye...:( <br>
-Output: Goodbye...🙁
+``Input: Hello! :);`` <br>
+``Output: Hello! 🙂``
+
+``Input: Goodbye...:(`` <br>
+``Output: Goodbye...🙁``
 
 <h2> Einstein.py </h2>
 Even if you haven’t studied physics (recently or ever!), you might have heard that E = mc<sup>2</sup>, wherein E represents energy (measured in Joules), m represents mass (measured in kilograms), and c represents the speed of light (measured approximately as 300000000 meters per second), per Albert Einstein et al. Essentially, the formula means that mass and energy are equivalent.
@@ -50,11 +50,11 @@ In a file called einstein.py, implement a program in Python that prompts the use
 <strong><ins> Example Input/Output </ins></strong>
 
 
-Input: 1 <br>
-Output: 90000000000000000
+``Input: 1`` <br>
+``Output: 90000000000000000``
 
-Input: 50 <br>
-Output: 4500000000000000000
+``Input: 50`` <br>
+``Output: 4500000000000000000``
 
 <h2> Tip Calculator </h2>
 In the United States, it’s customary to leave a tip for your server after dining in a restaurant, typically an amount equal to 15% or more of your meal’s cost. Not to worry, though, we’ve written a tip calculator for you, below!
