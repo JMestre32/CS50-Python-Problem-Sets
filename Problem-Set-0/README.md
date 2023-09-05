@@ -10,7 +10,7 @@ In a file called indoor.py, implement a program in Python that prompts the user 
 
 <strong><ins> Example Input/Output </ins></strong>
 
-Input: HELLO, WORLD
+Input: HELLO, WORLD <br>
 Output: hello, world
 
 Input: THIS IS CS50
@@ -24,7 +24,7 @@ In a file called playback.py, implement a program in Python that prompts the use
 
 <strong><ins> Example Input/Output </ins></strong>
 
-Input: Hi, I am Berry
+Input: Hi, I am Berry <br>
 Output: Hi,...I...am...Berry
 
 <h2> Making Faces </h2>
@@ -36,10 +36,10 @@ Then, in that same file, implement a function called main that prompts the user 
 
 <strong><ins> Example Input/Output </ins></strong>
 
-Input: Hello! :&#41;
+Input: Hello! :&#41; <br>
 Output: Hello! 🙂
 
-Input: Goodbye...:(
+Input: Goodbye...:( <br>
 Output: Goodbye...🙁
 
 <h2> Einstein.py </h2>
@@ -50,10 +50,10 @@ In a file called einstein.py, implement a program in Python that prompts the use
 <strong><ins> Example Input/Output </ins></strong>
 
 
-Input: 1
+Input: 1 <br>
 Output: 90000000000000000
 
-Input: 50
+Input: 50 <br>
 Output: 4500000000000000000
 
 <h2> Tip Calculator </h2>
@@ -85,11 +85,12 @@ Assume that the user will input values in the expected formats.
 
 <strong><ins> Example Input/Output </ins></strong>
 
-Input: 1st: $50.00  2nd: 15%
-Output: Leave $7.50
+```Input: 1st: $50.00  2nd: 15%``` <br>
+``Output: Leave $7.50``
 
-Input: 1st: $100.00 2nd: 18%
-Output: Leave $18.00
+``Input: 1st: $100.00 2nd: 18%`` <br>
+``Output: Leave $18.00``
 
-Input: 1st: $15.00 2nd: 25%
-Output: Leave $3.75
+
+``Input: 1st: $15.00 2nd: 25%`` <br>
+``Output: Leave $3.75``
