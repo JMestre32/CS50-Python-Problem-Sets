@@ -1,3 +1,7 @@
+# Problem Set 1 (Conditionals)
+
+
+<h2> Deep Thought </h2>
 “All right,” said the computer, and settled into silence again. The two men fidgeted. The tension was unbearable.
 “You’re really not going to like it,” observed Deep Thought.
 “Tell us!”
@@ -13,3 +17,5 @@
 
 — The Hitchhiker’s Guide to the Galaxy, Douglas Adams
 In deep.py, implement a program that prompts the user for the answer to the Great Question of Life, the Universe and Everything, outputting Yes if the user inputs 42 or (case-insensitively) forty-two or forty two. Otherwise output No.
+
+<strong><ins> Example Input/Output </ins></strong>
