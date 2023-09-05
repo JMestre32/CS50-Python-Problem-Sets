@@ -1,4 +1,4 @@
-# Problem Set 0
+# Problem Set 0 (Functions and Variables)
 
 <h2> Indoor.py </h2>
 WRITING IN ALL CAPS IS LIKE YELLING.
