@@ -100,3 +100,25 @@ In a file called ``interpreter.py``, implement a program that prompts the user f
     <li> <code> y </code> is <code> + </code>, <code> - </code>, <code> * </code>, or <code> / </code> </li>
     <li> <code> z </code> is an integer
 </ul>
+
+
+For instance, if the user inputs ``1 + 1``, your program should output ``2.0``. Assume that, if ``y`` is ``/``, then ``z`` will not be ``0``.
+
+Note that, just as ``python`` itself is an interpreter for Python, so will your ``interpreter.py`` be an interpreter for math!
+
+
+``Expected Input/Output: ``
+
+<code> 
+Expression: 1 + 1
+2.0
+
+Expression: 100 - 1
+99.0
+
+Expression: 4 / 3
+99.0
+
+Expression: -1 + 100
+99.0
+</code>
