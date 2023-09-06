@@ -110,16 +110,16 @@ Note that, just as ``python`` itself is an interpreter for Python, so will your 
 <strong><ins> Expected Input/Output: </ins> </strong>
 
 
-``Expression: 1 + 1``
+``Expression: 1 + 1`` <br>
 ``2.0``
 
-``Expression: 100 - 1``
+``Expression: 100 - 1`` <br>
 ``99.0``
 
-``Expression: 4 / 3``
+``Expression: 4 / 3`` <br>
 ``99.0``
 
-``Expression: -1 + 100``
+``Expression: -1 + 100`` <br>
 ``99.0``
 
 <h2> Meal Time </h2>
@@ -132,16 +132,16 @@ Structure your program per the below, wherein ``convert`` is a function (that ca
 
 <strong><ins> Expected Input/Output </ins> </strong>
 
-``What time is it? 7:00``
+``What time is it? 7:00`` <br>
 ``breakfast time``
 
-``What time is it? 7:30``
+``What time is it? 7:30`` <br>
 ``breakfast time``
 
-``What time is it? 8:01``
+``What time is it? 8:01``<br>
 
-``What time is it? 18:01``
+``What time is it? 18:01`` <br>
 ``dinner time``
 
-``What time is it? 18:59``
+``What time is it? 18:59`` <br>
 ``dinner time``
