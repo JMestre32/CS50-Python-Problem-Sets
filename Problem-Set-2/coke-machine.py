@@ -1,19 +1,15 @@
 due = 50
 while due > 0:
-    while True:
-        coin = int(input("Insert coin: "))
-        if coin == 50:
-            break
-        elif coin == 25:
-            break
-        elif coin == 10:
-            break
-        elif coin == 5:
-            break
-        elif coin == 67899928212:
-            print("ayyy")
-    due = due - coin
+    coin = int(input("Insert Coin: "))
+    if coin == 50:
+        due = due - coin
+    elif coin == 25:
+        due = due - coin
+    elif coin == 10:
+        due = due - coin
+    elif coin == 5:
+        due = due - coin
     if due > 0:
-        print("Amount due: " + str(due))
+        print("Amount Due: " + str(due))
 
-print("Change due: " + str(abs(due)))
+print("Change Owed: " + str(abs(due)))
