@@ -12,11 +12,42 @@ In a file called ``camel.py``, implement a program that prompts the user for the
 
 <strong><ins> Expected Input/Output </strong></ins>
 
-``Input: berry``
-``Output: berry``
+``Input: camelCase: berry``
+``Output: snake_case: berry``
 
-``Input: bigBerry``
-``Output: big_berry``
+``Input: camelCase: bigBerry``
+``Output: snake_case: big_berry``
 
-``Input: iAmBerry ``
-``Output: i_Am_Berry``
+``Input: camelCase: iAmBerry ``
+``Output: snake_case: i_Am_Berry``
+
+<h3> Coke Machine </h3>
+
+Suppose that a machine sells bottles of Coca-Cola (Coke) for 50 cents and only accepts coins in these denominations: 25 cents, 10 cents, and 5 cents.
+
+In a file called ``coke.py``, implement a program that prompts the user to insert a coin, one at a time, each time informing the user of the amount due. Once the user has inputted at least 50 cents, output how many cents in change the user is owed. Assume that the user will only input integers, and ignore any integer that isn’t an accepted denomination.
+
+<strong> <ins> Expected Output/Input:  </ins> </strong>
+
+``Input: ``
+``Insert Coin: 25``
+
+``Output: ``
+``Amount Due: 25``
+
+``Input: ``
+``Insert Coin: 26``
+
+``Output: ``
+``Amount Due: 25``
+
+``Input: ``
+``Insert Coin: 50``
+
+``Output: ``
+``Change Owed: 25``
+
+
+
+
+
