@@ -13,3 +13,7 @@ while due > 0:
         print("Amount Due: " + str(due))
 
 print("Change Owed: " + str(abs(due)))
+
+#if/elif could be written like so:
+#if coin in [50, 25, 10, 5]:
+    #due -= coin
