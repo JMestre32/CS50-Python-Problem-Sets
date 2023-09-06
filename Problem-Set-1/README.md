@@ -97,7 +97,6 @@ In a file called ``interpreter.py``, implement a program that prompts the user f
 
 <ul>
     <li> <code> x </code> is an integer </li>
-    <li> <code> y </code> is <code> + </code>, <code> - </code>, <code> * 
-    </code>, or <code> / </code> </li>
+    <li> <code> y </code> is <code> + </code>, <code> - </code>, <code> * </code>, or <code> / </code> </li>
     <li> <code> z </code> is an integer
 </ul>
