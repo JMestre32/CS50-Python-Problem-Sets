@@ -12,13 +12,13 @@ In a file called ``camel.py``, implement a program that prompts the user for the
 
 <strong><ins> Expected Input/Output </strong></ins>
 
-``Input: camelCase: berry``
-``Output: snake_case: berry``
+``Input: camelCase: berry`` <br>
+``Output: snake_case: berry``<br>
 
-``Input: camelCase: bigBerry``
+``Input: camelCase: bigBerry``<br>
 ``Output: snake_case: big_berry``
 
-``Input: camelCase: iAmBerry ``
+``Input: camelCase: iAmBerry ``<br>
 ``Output: snake_case: i_Am_Berry``
 
 <h3> Coke Machine </h3>
@@ -29,22 +29,22 @@ In a file called ``coke.py``, implement a program that prompts the user to inser
 
 <strong> <ins> Expected Output/Input:  </ins> </strong>
 
-``Input: ``
+``Input: ``<br>
 ``Insert Coin: 25``
 
-``Output: ``
+``Output: ``<br>
 ``Amount Due: 25``
 
-``Input: ``
+``Input: ``<br>
 ``Insert Coin: 26``
 
-``Output: ``
+``Output: ``<br>
 ``Amount Due: 25``
 
-``Input: ``
+``Input: ``<br>
 ``Insert Coin: 50``
 
-``Output: ``
+``Output: ``<br>
 ``Change Owed: 25``
 
 
