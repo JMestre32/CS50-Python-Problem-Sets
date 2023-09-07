@@ -7,13 +7,13 @@ def main():
 
 
 def is_valid(s):
-    #Ensure the first two characters on the plate are letters
-    if s[0].isalpha() == False or s[1].isalpha() == False:
-        return False
     #Ensure the plate's least 2 characters long and 6 characters max
     if len(s) < 2 or len(s) > 6:
         return False
     
+    #Ensure the first two characters on the plate are letters
+    if s[0].isalpha() == False or s[1].isalpha() == False:
+        return False
     #Return false if a digit is in the middle of the plate
     i = 0
     while i < len(s):
