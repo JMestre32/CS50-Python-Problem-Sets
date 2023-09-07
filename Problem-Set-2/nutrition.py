@@ -39,8 +39,15 @@ fruit = input("Item: ").strip().lower()
 #Look through fruit "name" section to see if it exists
 #If it exists print it's "calories"
 
-for fruit in fruits:
-    if fruit["name"] in fruits:
-        print(fruit["calories"])
-    else:
+for f in fruits:
+    if fruit in f["name"]:
+        print(f["calories"])
         break
+
+#So, f is essentially a temporary variable that takes on the value
+#of each dictionary (fruit) in the fruits list one at a time. 
+#The loop goes through each fruit in the list and checks if 
+#the input fruit matches the name of that fruit. 
+#If it finds a match, it prints the associated calories and 
+#exits the loop. If no match is found after looping through 
+#all the fruits, nothing is printed.
