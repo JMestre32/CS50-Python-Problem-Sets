@@ -7,20 +7,30 @@ def main():
 
 
 def is_valid(s):
-    if len(s) < 2:
+    if len(s) < 2 or len(s) > 6:
         return False
+
+    if s[0].isalpha() == False or s[1].isalpha() == False:
+        return False
+    
+    i = 0
+    if s[0:].isalpha():
+        return True
+    
+    while i < len(s):
+        if s[i].isalpha() == False:
+            if s[i] == '0':
+                return False
+            else:
+                break
+        i += 1
+
     for letter in s:
         if letter in [' ', '.', '!', '?']:
             return False
-        if s.isalpha() and len(s) <= 6:
-            return True
-    for i in range(len(s)):
-        if s[i].isdigit():
-            if not s[i:].isdigit():
-                return False
+        
+
     for letter in range(len(s)):
-        if len(s) >6:
-            return False
         if s[0].isalpha() and s[1].isalpha():
             if len(s) == 2:
                 return True
@@ -61,4 +71,3 @@ main()
     #         if s[i] == '0':
     #             return False
     #     i += 1
-    
