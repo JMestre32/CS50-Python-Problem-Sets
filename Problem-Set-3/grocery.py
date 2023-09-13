@@ -30,3 +30,9 @@ while True:
     #YAHOO, passed first time! We did consult help, but that's what you will have to do!
     #Don't beat yourself up for not knowing particular methods of sorting dictionaries, you're just
     #adding to your bag! :)
+
+
+    #Can sort in a more efficient manner like so:
+
+    #for key in sorted(groceries.key()):
+        #print(groceries[key], key)
