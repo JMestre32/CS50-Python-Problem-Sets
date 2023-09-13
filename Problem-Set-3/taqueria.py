@@ -17,15 +17,13 @@ while True:
     #figure out which errors to catch and catch 'em
     try: 
         food = input("Item: ").title()
+        total = total + menu.get(food)
     except EOFError:
         exit()
-    except KeyError:
+    except (KeyError, TypeError):
         pass
     else:
-        for key in menu:
-            if food in key:
-                print(key)
-                total = total + float(menu[key])
-            else:
-                continue
+        #Key is a temporary variable that holds the value of each
+        #item in the menu dict one at a time. 
+        #We want to match food with ONLY one key, the EXACT key, how?
         print("Total: " + "$" + f"{total:.2f}")
