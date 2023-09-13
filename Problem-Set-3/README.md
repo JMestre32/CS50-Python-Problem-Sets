@@ -42,3 +42,28 @@ One of the most popular places to eat in Harvard Square is Felipe’s Taqueria, 
     "Tortilla Salad": 8.00
     }
 </code>
+
+In a file called taqueria.py, implement a program that enables a user to place an order, prompting them for items, one per line, until the user inputs control-d (which is a common way of ending one’s input to a program). After each inputted item, display the total cost of all items inputted thus far, prefixed with a dollar sign ($) and formatted to two decimal places. Treat the user’s input case insensitively. Ignore any input that isn’t an item. Assume that every item on the menu will be titlecased.
+
+
+Hints:
+<ul>
+<li> Note that you can detect when the user has inputted control-d by catching an EOFError with code like: </li>
+<code>
+try:
+    item = input()
+except EOFError:
+    ...
+</code>
+You might want to print a new line so that the user’s cursor (and subsequent prompt) doesn’t remain on the same line as your program’s own prompt.
+
+
+<li> You might want to print a new line so that the user’s cursor (and subsequent prompt) doesn’t remain on the same line as your program’s own prompt. </li>
+
+<li> Note that a dict comes with quite a few methods, per docs.python.org/3/library/stdtypes.html#mapping-types-dict, among them get, and supports operations like: </li>
+
+``d[key]``
+and 
+``if key in d: ``
+    ``...``
+<li> Be sure to avoid or catch any KeyError </li>
