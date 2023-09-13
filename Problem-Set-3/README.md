@@ -84,3 +84,38 @@ and
 ``Total: $17.00`` <br>
 ``Item: taco `` <br>
 ``Total: $20.00`` <br>
+
+<h3> Grocery List </h3>
+Suppose that you’re in the habit of making a list of items you need from the grocery store.
+
+In a file called ``grocery.py``, implement a program that prompts the user for items, one per line, until the user inputs control-d (which is a common way of ending one’s input to a program). Then output the user’s grocery list in all uppercase, sorted alphabetically by item, prefixing each line with the number of times the user inputted that item. No need to pluralize the items. Treat the user’s input case-insensitively.
+
+Hint: You'll probably want to use a dict and be sure to avoid or catch ``Key Error``
+
+<strong><ins> Expected Input/Output: </ins></strong>
+
+<code>
+python3 grocery.py
+apple
+banana
+banana
+ice cream
+
+1 APPLE
+2 BANANA
+1 ICE CREAM
+</code>
+
+<code>
+python3 grocery.py
+lettuce
+tomato
+tomato
+carrot
+tomato
+
+1 CARROT
+1 LETTUCE
+3 TOMATO
+</code>
+
