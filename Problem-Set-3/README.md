@@ -62,8 +62,25 @@ You might want to print a new line so that the user’s cursor (and subsequent p
 
 <li> Note that a dict comes with quite a few methods, per docs.python.org/3/library/stdtypes.html#mapping-types-dict, among them get, and supports operations like: </li>
 
-``d[key]``
+``d[key]`` <br>
 and 
 ``if key in d: ``
     ``...``
 <li> Be sure to avoid or catch any KeyError </li>
+
+<strong><ins> Expected Input/Output: </ins></strong>
+
+``Item: burrito `` <br>
+``Total: $7.50 `` <br>
+``Item: large quesadilla`` <br>
+``Item: super quesadilla `` <br>
+``Total: $17.00`` <br>
+``python taqueria.py ``
+``Item: nachos`` <br>
+``Total: $11.00`` <br>
+``Item: taco`` <br>
+``Total: $14.00 `` <br>
+``Item: taco `` <br>
+``Total: $17.00`` <br>
+``Item: taco `` <br>
+``Total: $20.00`` <br>
