@@ -16,9 +16,16 @@ while True:
     #(like a total = item + total)
     #figure out which errors to catch and catch 'em
     try: 
-        food = input("Item: ")
+        food = input("Item: ").title()
     except EOFError:
         exit()
-
+    except KeyError:
+        pass
     else:
-        print("Total: " + total)
+        for key in menu:
+            if food in key:
+                print(key)
+                total = total + float(menu[key])
+            else:
+                continue
+        print("Total: " + "$" + f"{total:.2f}")
