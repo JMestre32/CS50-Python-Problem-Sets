@@ -26,3 +26,7 @@ while True:
         exit()
     except KeyError:
         pass
+
+    #YAHOO, passed first time! We did consult help, but that's what you will have to do!
+    #Don't beat yourself up for not knowing particular methods of sorting dictionaries, you're just
+    #adding to your bag! :)
