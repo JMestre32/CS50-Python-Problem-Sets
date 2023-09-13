@@ -27,3 +27,6 @@ while True:
         #item in the menu dict one at a time. 
         #We want to match food with ONLY one key, the EXACT key, how?
         print("Total: " + "$" + f"{total:.2f}")
+
+
+#NO WAYYY PASSED ALL TEST CASES FIRST TRY BABYYYY
