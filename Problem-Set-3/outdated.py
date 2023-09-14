@@ -31,7 +31,7 @@ while True:
                 if ',' not in date:
                     continue
                 first_half = (date.split(','))
-                day = int(first_half[0].split()[1])
+                day = int(first_half[0].split()[1]) #You can also do day.replace(",", "")
                 year = date.split()[2]
 
                 if month is None:
@@ -55,3 +55,4 @@ while True:
     except (KeyError, TypeError, ValueError):
         pass
 
+ 
