@@ -55,4 +55,9 @@ while True:
     except (KeyError, TypeError, ValueError):
         pass
 
- 
+ #Revisions:
+
+ #I now know that you can have multiple tries within a program.
+ #So, next time I can split the 'x/y/z' formatting and that " " formatting into 
+ #separate try/except functions. Also, I didn't have to use a dict, but they're the fastest
+ #so like... yeah. 
